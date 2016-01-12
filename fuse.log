@@ -1,0 +1,41 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB_isim_beh.exe" -prj "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB_beh.prj" "work.newTB" 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/up_counter_en.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/strobe.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/mux.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/Digit.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/decoder.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/counter.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/view.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/FSM.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/BCD.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/struc_top.vhd" into library work
+Parsing VHDL file "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity counter [\counter(4)\]
+Compiling architecture behavioral of entity counter [\counter(10)\]
+Compiling architecture behavioral of entity counter [\counter(16)\]
+Compiling architecture behavioral of entity FSM [fsm_default]
+Compiling architecture rtl of entity Digit [digit_default]
+Compiling architecture rtl of entity BCDConv [\BCDConv(5)\]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity mux6_1 [mux6_1_default]
+Compiling architecture behavioral of entity dec1_2 [dec1_2_default]
+Compiling architecture behavioral of entity strobe_dec [strobe_dec_default]
+Compiling architecture behav of entity up_counter_en [\up_counter_en(4,('0','1','0','1...]
+Compiling architecture behavioral of entity view [view_default]
+Compiling architecture behavioral of entity struc_top [struc_top_default]
+Compiling architecture behavior of entity newtb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB_isim_beh.exe
+Fuse Memory Usage: 33932 KB
+Fuse CPU Usage: 1060 ms

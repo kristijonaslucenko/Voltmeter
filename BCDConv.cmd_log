@@ -1,0 +1,1 @@
+vhdtdtfi -prj Sensor -o C:/Users/Admin/Desktop/srs/Sensor/BCDConv.vhi -module BCDConv -template D:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Digit.vhd -lib work BCD.vhd 

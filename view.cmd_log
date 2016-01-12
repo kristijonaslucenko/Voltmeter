@@ -1,0 +1,1 @@
+vhdtdtfi -prj Sensor -o D:/Users/Mokykla/Desktop/Sensor/view.vhi -module view -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work up_counter_en.vhd -lib work strobe.vhd -lib work mux.vhd -lib work decoder.vhd -lib work view.vhd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB_isim_beh.exe" -prj "D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB_beh.prj" "work.newTB" 

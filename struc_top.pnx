@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (LVTTL|SSTL3_I|LVCMOS33|LVCMOS25|SSTL2_I|LVCMOS18|LVCMOS15|HSTL_I|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xbr" device="XC2C256" pkg="TQ144" spg="-7"/><pin dir="input" iostd="LVCMOS18" nm="clkin" no="38"/><pin dir="input" iostd="LVCMOS18" nm="start_stop_sw" no="23"/><pin dir="input" iostd="LVCMOS18" nm="sd" no="87"/><pin dir="output" iostd="LVCMOS18" nm="PortA_DIR" no="91" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PortA_OE" no="88" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PortB_DIR" no="78" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="PortB_OE" no="77" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="cs_to_adc" no="101" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="dot_out" no="132" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="sclk_to_adc" no="98" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;0&gt;" no="103" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;1&gt;" no="104" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;2&gt;" no="112" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;3&gt;" no="113" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;4&gt;" no="120" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;5&gt;" no="121" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="seg_out&lt;6&gt;" no="131" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="strobe_out&lt;0&gt;" no="125" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="strobe_out&lt;1&gt;" no="124" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="strobe_out&lt;2&gt;" no="115" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="strobe_out&lt;3&gt;" no="114" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="strobe_out&lt;4&gt;" no="106" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="strobe_out&lt;5&gt;" no="105" sr="fast"/></ibis>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/newTB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="newtb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/newtb/sd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sd</obj_property>
+      <obj_property name="ObjectShortName">sd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/start_stop_sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_stop_sw</obj_property>
+      <obj_property name="ObjectShortName">start_stop_sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/cs_to_adc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_to_adc</obj_property>
+      <obj_property name="ObjectShortName">cs_to_adc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/sclk_to_adc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk_to_adc</obj_property>
+      <obj_property name="ObjectShortName">sclk_to_adc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/seg_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/dot_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dot_out</obj_property>
+      <obj_property name="ObjectShortName">dot_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/strobe_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">strobe_out[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/Inst_FSM/current_s" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_s</obj_property>
+      <obj_property name="ObjectShortName">current_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/Inst_FSM/bcd_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bcd_read</obj_property>
+      <obj_property name="ObjectShortName">bcd_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/q_temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_temp[19:0]</obj_property>
+      <obj_property name="ObjectShortName">q_temp[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/q_temp1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_temp1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">q_temp1[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/Inst_FSM/step10" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step10</obj_property>
+      <obj_property name="ObjectShortName">step10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/Inst_FSM/step4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step4</obj_property>
+      <obj_property name="ObjectShortName">step4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/newtb/uut/Inst_FSM/step16" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step16</obj_property>
+      <obj_property name="ObjectShortName">step16</obj_property>
+   </wvobject>
+</wave_config>

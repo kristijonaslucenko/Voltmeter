@@ -1,0 +1,5 @@
+vhdl work "D:\Users\Mokykla\Desktop\Sensor\up_counter_en.vhd"
+vhdl work "D:\Users\Mokykla\Desktop\Sensor\strobe.vhd"
+vhdl work "D:\Users\Mokykla\Desktop\Sensor\mux.vhd"
+vhdl work "D:\Users\Mokykla\Desktop\Sensor\decoder.vhd"
+vhdl work "D:\Users\Mokykla\Desktop\Sensor\view.vhd"

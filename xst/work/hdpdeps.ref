@@ -1,0 +1,73 @@
+V3 39
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/BCD.vhd 2013/12/13.16:32:55 P.68d
+EN work/BCDConv 1387458247 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/BCD.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/BCDConv/RTL 1387458248 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/BCD.vhd \
+      EN work/BCDConv 1387458247 CP Digit
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/counter.vhd 2013/12/19.12:55:55 P.68d
+EN work/counter 1387458243 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/counter.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/counter/Behavioral 1387458244 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/counter.vhd \
+      EN work/counter 1387458243
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/decoder.vhd 2013/12/18.17:21:15 P.68d
+EN work/dec1_2 1387458235 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/decoder.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/dec1_2/Behavioral 1387458236 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/decoder.vhd \
+      EN work/dec1_2 1387458235
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/Digit.vhd 2013/12/13.16:33:19 P.68d
+EN work/Digit 1387458241 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/Digit.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Digit/RTL 1387458242 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/Digit.vhd \
+      EN work/Digit 1387458241
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/FSM.vhd 2013/12/19.14:03:47 P.68d
+EN work/FSM 1387458245 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/FSM.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/FSM/Behavioral 1387458246 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/FSM.vhd EN work/FSM 1387458245 \
+      CP counter
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/mux.vhd 2013/12/18.14:03:33 P.68d
+EN work/mux6_1 1387458233 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/mux.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/mux6_1/Behavioral 1387458234 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/mux.vhd \
+      EN work/mux6_1 1387458233
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/strobe.vhd 2013/12/18.14:05:21 P.68d
+EN work/strobe_dec 1387458237 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/strobe.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/strobe_dec/Behavioral 1387458238 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/strobe.vhd \
+      EN work/strobe_dec 1387458237
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/struc_top.vhd 2013/12/19.12:14:26 P.68d
+EN work/struc_top 1387458251 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/struc_top.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/struc_top/Behavioral 1387458252 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/struc_top.vhd \
+      EN work/struc_top 1387458251 CP FSM CP BCDConv CP view
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/up_counter_en.vhd 2013/12/18.15:02:41 P.68d
+EN work/up_counter_en 1387458239 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/up_counter_en.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/up_counter_en/behav 1387458240 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/up_counter_en.vhd \
+      EN work/up_counter_en 1387458239
+FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/view.vhd 2013/12/18.15:06:46 P.68d
+EN work/view 1387458249 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/view.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/view/Behavioral 1387458250 \
+      FL D:/Users/Mokykla/Desktop/SensorWorking/Sensor/Sensor/view.vhd \
+      EN work/view 1387458249 CP mux6_1 CP dec1_2 CP strobe_dec CP up_counter_en

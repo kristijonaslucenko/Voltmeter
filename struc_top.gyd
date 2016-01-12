@@ -1,0 +1,75 @@
+Pin Freeze File:  version P.68d
+
+2C256144 XC2C256-7-TQ144
+clkin S:PIN38
+sd S:PIN87
+start_stop_sw S:PIN23
+PortA_DIR S:PIN91
+PortA_OE S:PIN88
+PortB_DIR S:PIN78
+PortB_OE S:PIN77
+cs_to_adc S:PIN101
+dot_out S:PIN132
+sclk_to_adc S:PIN98
+seg_out<0> S:PIN103
+seg_out<1> S:PIN104
+seg_out<2> S:PIN112
+seg_out<3> S:PIN113
+seg_out<4> S:PIN120
+seg_out<5> S:PIN121
+seg_out<6> S:PIN131
+strobe_out<0> S:PIN125
+strobe_out<1> S:PIN124
+strobe_out<2> S:PIN115
+strobe_out<3> S:PIN114
+strobe_out<4> S:PIN106
+strobe_out<5> S:PIN105
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 N_PZ_259 Inst_view/mux_sel_temp<3> Inst_view/mux_sel_temp<0> q_temp1<15>
+		 Inst_view/mux_sel_temp<2> q_temp1<4> Inst_view/mux_sel_temp<1> q_temp1<2>
+		 q_temp1<1> q_temp1<3> Inst_view/mux_to_dec<3> q_temp1<9>
+		 q_temp1<10> q_temp1<11> Inst_view/mux_to_dec<2> Inst_view/mux_to_dec<1>
+		
+PARTITION FB2_1 q_temp<4> q_temp<15> q_temp<3> q_temp<2>
+		 q_temp<1> q_temp<14> q_temp<13> q_temp<12>
+		 q_temp<11> q_temp<10> q_temp<0> q_temp<19>
+		 q_temp<18> q_temp<17> q_temp<16> Inst_FSM/current_s_FSM_FFd2
+		
+PARTITION FB3_1 Inst_FSM/en_4 q_temp1<6> q_temp1<5> q_temp1<7>
+		 q_temp1<0> q_temp<9> q_temp<8> q_temp<7>
+		 q_temp<6> q_temp<5> Inst_FSM/counter16/counter<3> Inst_FSM/counter16/counter<2>
+		 Inst_FSM/counter16/counter<0> dot_out Inst_FSM/counter16/counter<1> seg_out<6>
+		
+PARTITION FB4_1 Inst_FSM/counter10/counter<3> Inst_FSM/counter10/counter<0> Inst_FSM/counter10/counter<2> N_PZ_420
+		 N_PZ_241 Inst_FSM/counter4/counter<1> Inst_FSM/current_s_FSM_FFd1 q_temp1<8>
+		 q_temp1<14> q_temp1<13> q_temp1<18> Inst_FSM/counter4/counter<2>
+		 q_temp1<17> Inst_FSM/counter4/counter<0> q_temp1<19> q_temp1<12>
+		
+PARTITION FB5_16 Inst_FSM/counter10/counter<1>
+
+
+
+PARTITION FB9_1 seg_out<2> seg_out<3>
+PARTITION FB9_4 strobe_out<3>
+PARTITION FB9_6 strobe_out<2>
+
+PARTITION FB10_4 strobe_out<4> strobe_out<5> seg_out<1>
+PARTITION FB10_12 seg_out<0>
+PARTITION FB10_16 cs_to_adc
+PARTITION FB11_5 seg_out<4> seg_out<5>
+PARTITION FB11_11 strobe_out<1> strobe_out<0>
+
+PARTITION FB12_11 sclk_to_adc
+
+PARTITION FB13_3 PortB_OE
+PARTITION FB13_5 PortB_DIR
+
+
+PARTITION FB15_13 q_temp1<16> PortA_OE PortA_DIR
+
+
+

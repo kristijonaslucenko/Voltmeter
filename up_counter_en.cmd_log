@@ -1,0 +1,1 @@
+vhdtdtfi -prj Sensor -o D:/Users/Mokykla/Desktop/Sensor/up_counter_en.vhi -module up_counter_en -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work up_counter_en.vhd 
